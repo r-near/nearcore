@@ -1,0 +1,19 @@
+[package]
+name = "wasm-smoke"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+near-crypto = { path = "../../core/crypto", default-features = false }
+borsh = "1"
+
+[profile.release]
+opt-level = "z"
+lto = true
+panic = "abort"
+
+[workspace]

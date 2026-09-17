@@ -1,0 +1,11 @@
+[package]
+name = "dup-link"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+near-slip10-mldsa-native-sys = { path = "../../../near-slip10-pr22/mldsa-native-rs" }
+near-mldsa-native-sys = { path = "../../core/mldsa-native-sys" }
+
+[workspace]

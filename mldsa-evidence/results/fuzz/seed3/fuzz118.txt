@@ -1,0 +1,25 @@
+cases=10000000 seed=3 secs=168.6 mismatches(aws118,nx,na,nc)=0
+                     valid total=   416607 accepted_by_all=   416607 mismatches=0
+               sig_bitflip total=   417637 accepted_by_all=        0 mismatches=0
+               ctilde_byte total=   416097 accepted_by_all=     1581 mismatches=0
+                    z_byte total=   416441 accepted_by_all=     1622 mismatches=0
+                 hint_byte total=   415718 accepted_by_all=     1645 mismatches=0
+    hint_counts_decreasing total=   416928 accepted_by_all=        0 mismatches=0
+       hint_count_gt_omega total=   416348 accepted_by_all=        0 mismatches=0
+      hint_duplicate_index total=   416711 accepted_by_all=        0 mismatches=0
+           hint_swap_order total=   416614 accepted_by_all=        0 mismatches=0
+      hint_nonzero_padding total=   416513 accepted_by_all=        0 mismatches=0
+    hint_move_between_rows total=   416390 accepted_by_all=      340 mismatches=0
+               hint_remove total=   416947 accepted_by_all=        0 mismatches=0
+                  hint_add total=   415836 accepted_by_all=    10663 mismatches=0
+                z_boundary total=   417012 accepted_by_all=        0 mismatches=0
+      z_boundary_plus_hint total=   416619 accepted_by_all=        0 mismatches=0
+                pk_bitflip total=   416776 accepted_by_all=        0 mismatches=0
+               pk_rho_byte total=   416439 accepted_by_all=     1649 mismatches=0
+              msg_modified total=   417783 accepted_by_all=        0 mismatches=0
+                all_random total=   417153 accepted_by_all=        0 mismatches=0
+                  other_pk total=   416054 accepted_by_all=     6437 mismatches=0
+        sig_all_zero_or_ff total=   417736 accepted_by_all=        0 mismatches=0
+             ctilde_splice total=   417567 accepted_by_all=      272 mismatches=0
+             hints_cleared total=   415936 accepted_by_all=        0 mismatches=0
+    z_boundary_valid_range total=   416138 accepted_by_all=        1 mismatches=0

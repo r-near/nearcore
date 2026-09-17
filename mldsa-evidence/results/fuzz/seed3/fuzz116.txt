@@ -1,0 +1,1 @@
+aws116 cases=10000000 seed=3 secs=39.3 accepted=440817 mismatches_vs_all_others=0
